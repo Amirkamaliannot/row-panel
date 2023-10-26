@@ -140,6 +140,7 @@ if(isset($_COOKIE['lang_panel'])){
                         <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                             <ul class="dropdown-user">
                                 <li><a href="profile.php"><i class="ti-user"></i> <?= $lang['profile'] ?> </a></li>
+                                <hr>
                                 <li><a href="logout.php"><i class="fa fa-power-off"></i> <?= $lang['logout']; ?></a></li>
                             </ul>
                         </div>
